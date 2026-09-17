@@ -8,4 +8,6 @@ dependencies:
   - jupyter
   - ipykernel
   - pandas
-prefix: /opt/homebrew/Caskroom/miniconda/base/envs/evasion
+  - pip
+  - pip:
+      - mesa[rec]==3.5.1
