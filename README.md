@@ -1,6 +1,9 @@
 # Immune Evasion Modelling
 
-![Representative plot of peptide-HLA downregulation and immune escape at a 10:1 E:T](images/peptide-hla-downregulation.png)
+<p align="center">
+  <img src="images/peptide-hla-downregulation.png" width="600"
+       alt="Representative plot of peptide-HLA downregulation and immune escape at a 10:1 E:T">
+</p>
 
 
 ## Background
