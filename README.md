@@ -25,8 +25,8 @@ Population dynamics are tracked over time and can be viewed as the model is runn
 Clone the repository and create the environment:
 
 ```bash
-git clone https://github.com/jakeanthony123/evasion-modelling.git
-cd evasion-modelling
+git clone https://github.com/jakeanthony123/ImmuneEvasion-ABM.git
+cd ImmuneEvasion-ABM
 conda env create -f environment.yml
 conda activate evasion
 ```
