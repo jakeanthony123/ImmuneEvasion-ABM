@@ -1,10 +1,14 @@
 # Immune Evasion Modelling
 
-<p align="center">
-  <img src="images/peptide-hla-downregulation.png" width="600"
+<p align="left">
+  <img src="images/peptide-hla-downregulation.png" width="500"
        alt="Representative plot of peptide-HLA downregulation and immune escape at a 10:1 E:T">
 </p>
 
+<p align="right">
+  <img src="images/solara-dashboard.png" width="500"
+       alt="Solara dashboard screenshot and grid view">
+</p>
 
 ## Background
 The aim of this project was to develop a reductionist agent-based model of immune evasion through downregulation of peptide-HLA.
