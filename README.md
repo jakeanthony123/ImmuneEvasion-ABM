@@ -29,9 +29,34 @@ conda activate evasion
 
 ## Usage
 
-Launch Jupyter and open the notebook:
+There are two ways to run the model.
+
+### Interactive dashboard
+
+Launch the Solara app to view the simulation live in a browser:
+
+```bash
+solara run app.py
+```
+
+This opens at `http://localhost:8765`. The dashboard shows the grid with
+tumour cells shaded by peptide-HLA level, alongside population and
+peptide-HLA distribution plots. Cell counts can be adjusted with the
+sliders, and the model can be stepped, played and reset from the toolbar.
+
+To apply new slider values, stop the model first, adjust the sliders,
+then press reset.
+
+### Notebook
+
+Open the notebook to run the model in batch and inspect the collected
+data directly:
 
 ```bash
 jupyter notebook evasion_model.ipynb
 ```
 
+This runs the model for a set number of steps and plots the resulting
+population dynamics from the DataCollector.
+
+The agent and model definitions in `app.py` mirror those in the notebook.
