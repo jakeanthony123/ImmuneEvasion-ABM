@@ -1,0 +1,11 @@
+name: evasion
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pandas
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/evasion
