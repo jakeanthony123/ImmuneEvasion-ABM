@@ -3,7 +3,7 @@
 ## Background
 The aim of this project was to develop a reductionist agent-based model of immune evasion through downregulation of peptide-HLA.
 
-The model utilises the Mesa framework to develop a simple 10x10 grid, with two different cell classes:
+The model utilises the Mesa framework to develop a simple 20x20 grid, with two different cell classes:
 1. TumourCell
 2. ImmuneCell
 
